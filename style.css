@@ -1,0 +1,169 @@
+.playgamedesign {
+ width: 150px;
+ height: 60px;
+ top:500px;
+ right: 134px;
+ position: absolute;
+ background: tomato;
+ border-radius: 12%;
+ animation-duration: 1s;
+ animation-timing-function: linear;
+ animation-iteration-count: 9999999999999;
+ animation-name: play;
+}
+@keyframes play {
+  0% {
+    width: 150px;
+    height: 60px;
+  }
+  30% {
+    height: 64px;
+  width: 154px;
+  }
+  50% {
+    height: 60px;
+  width: 150px;
+ }
+  }
+.playgametext {
+  position: absolute;
+  top: 520px;
+  right: 190px;
+  font-family: "Monospace";
+   animation-duration: 1s;
+ animation-timing-function: linear;
+ animation-iteration-count: 9999999999999;
+}
+.logo {
+   position: absolute;
+   width: 90%;
+   right: 23px;
+   top: 240px;
+}
+body {
+background-image: url("background.gif");
+}
+.back {
+  width: 10%;
+  display: none;
+}
+.pts {
+  width: 10%;
+  color: white;
+  display: none;
+}
+.effect1 {
+  position: relative;
+  width: 50%;
+  display: none;
+}
+.login {
+  display: none;
+}
+.splash {
+  position : absolute;
+  background: black;
+  width: 100%;
+  height: 101vh;
+  z-index: 200;
+  color: white;
+  line-height: 84vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: -8px;
+}
+@keyframes logofoxsgameanimation {
+  to {
+   opacity: 1;
+  }
+}
+.logofoxsgame {
+  position: relative;
+  width: 90%;
+  top: 250px;
+  right: 5px;
+  opacity: 0;
+  animation: logofoxsgameanimation;
+  animation-duration: 4s;
+}
+@keyframes respawnpointanimation {
+  0% {
+    width: 150px;
+    height: 150px;
+  }
+  30% {
+    height: 64px;
+  width: 154px;
+  }
+  50% {
+    height: 64px;
+  width: 154px;
+ }
+}
+.point {
+  display: none;
+  position: fixed;
+  width: 50%;
+  animation: respawnpointanimation;
+  animation-duration: 2s;
+}
+.githubicon {
+  position: relative;
+  width: 10%;
+  top: 685px;
+}
+.border1 {
+  position: relative;
+  background-color: #2a2b2f;
+  border-radius: 30px;
+  height: 100px;
+  width: 413px;
+  right: 9px;
+  bottom: 40px;
+  color: #2a2b2f;
+}
+.border2 {
+  position: relative;
+  background-color: #2a2b2f;
+  height: 50px;
+  width: 412px;
+  right: 8px;
+  bottom: 150px;
+  color: #2a2b2f;
+}
+.txt1 {
+  display: none;
+}
+.txt2 {
+  display: none;
+}
+.playicon {
+  position: relative;
+  width: 25%;
+  bottom: 190px;
+  left: 150px;
+}
+.custumicon {
+  position: relative;
+  width: 15%;
+  bottom: 200px;
+}
+.onlineicon {
+  position: relative;
+  width: 15%;
+  bottom: 200px;
+  left: 65px;
+}
+.configicon {
+  position: relative;
+  width: 13%;
+  bottom: 200px;
+  left: 63px;
+}
+.missionicon {
+  position: relative;
+  width: 13%;
+  bottom: 200px;
+  right: 235px;
+}
